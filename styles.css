@@ -1,0 +1,165 @@
+*,::before,::after{
+    margin:0px;
+}
+:root{
+    --primary_color: #00c1b5;
+    --primary_font: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary_color);
+}
+
+.image-logo-header{
+    position: fixed;
+    top:20px;
+    margin-left:15px;
+}
+.image-logo-header{
+    width:260px;
+    height:auto;
+}
+
+.backstage-email{
+    position: fixed;
+    top:20px;
+    right:20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.backstage-email:hover{
+    text-decoration: underline;
+}
+
+.middle{
+    display: block;
+    margin-top: 45px;
+}
+
+.issueimg{
+    margin-top: -18px;
+    width:420px;
+    height:auto;
+}
+
+.issue-top{
+    position:absolute;
+    margin-top:20px;
+}
+
+.issue{
+    font-weight: bold;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.middle>p{
+    text-align: center;
+}
+
+.capilatize{
+    text-transform: uppercase;
+}
+
+.light-color{
+    color:white;
+    cursor: pointer;
+}
+
+.light-color:hover{
+    text-decoration: underline;
+}
+
+.issue-number{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.buy{
+    font-size: 15px;
+    padding-top: 3px;
+    line-height: 22px;
+}
+
+.stores{
+    font-size: 15px;
+    padding-top: 3px;
+    line-height: 22px;
+    padding-bottom:100px;
+}
+
+footer{
+    margin:15px;
+}
+
+.description{
+    width:300px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.copyright{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.policy-email{
+    margin-top:20px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    
+}
+
+.policy-email>a{
+    text-decoration: underline;
+}
+
+.policy-email>a:hover{
+    text-decoration: none;
+}
+
+.copyright>a{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.copyright>a:hover{
+    text-decoration: none;
+}
+
+.policy-email>*{
+    cursor:pointer;
+}
+
+
+.footer-sticky{
+    position: fixed;
+    bottom:5px;
+}
+
+.sticky-nav-bottom{
+    position: fixed;
+    bottom: 20px;
+    right:10px;
+}
+
+.sticky-nav-bottom>a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.sticky-nav-bottom>a:hover{
+    text-decoration: underline;
+}
