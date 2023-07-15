@@ -13,7 +13,35 @@ html{
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: var(--primary_color);
+}
+
+.issue7{
+    background-color: #ff608c;
+}
+
+.issue6{
+    background-color: white;
+    --primary_font: #ff608c;
+}
+
+.issue5{
+    background-color: #00c1b5;
+}
+
+.issue4{
+    background-color: #ff651a;
+}
+
+.issue3{
+    background-color: #ffbe00;
+}
+
+.issue2{
+    background-color: #1d3fbb;
+}
+
+.issue1{
+    background-color: #e30512;
 }
 
 .image-logo-header{
@@ -70,7 +98,7 @@ body{
 }
 
 .light-color{
-    color:white;
+    color:var(--primary_font);
     cursor: pointer;
 }
 
