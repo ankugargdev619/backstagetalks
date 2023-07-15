@@ -5,7 +5,7 @@ const body = document.querySelector('body');
 console.log(body);
 
 const options = {
-    threshold:0.5,
+    threshold:0.75,
 }
 
 const observer = new IntersectionObserver(sections =>{
